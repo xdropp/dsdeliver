@@ -1,7 +1,8 @@
 import './styles.css';
 import {ReactComponent as YoutubeIcon} from '../Footer/Youtube.svg'
-import {ReactComponent as InstaIcon} from '../Footer/Instagram.svg'
-import {ReactComponent as LinkedinIcon} from '../Footer/Linkedin.svg'
+import {ReactComponent as InstaIcon} from './Instagram.svg'
+import {ReactComponent as LinkedinIcon} from './Linkedin.svg'
+import { Link } from 'react-router-dom'
 
 
 function Footer(){
@@ -9,12 +10,15 @@ function Footer(){
         <footer className="main-footer">
             App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
             <div className="footer-icons">
-                <a href="https://www.youtube.com/c/DevSuperior" target="_new"></a>
+                <Link to="https://www.youtube.com/c/DevSuperior" target="_new">
                 <YoutubeIcon/>
-                <a href="https://www.linkedin.com/school/devsuperior/" target="_new"></a>
+                </Link>
+                <Link to="https://www.linkedin.com/school/devsuperior/" target="_new">
                 <LinkedinIcon/>
-                <a href="https://www.instagram.com/devsuperior.ig" target="_new"></a>
+                </Link>
+                <Link to="https://www.instagram.com/devsuperior.ig" target="_new">
                 <InstaIcon/>
+                </Link>
             </div>
         </footer>
     )
