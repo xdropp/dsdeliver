@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .orders-container {
   background-color: var(--light-color);
 }
@@ -9,7 +11,7 @@
 .orders-steps-container {
   display: flex;
   justify-content: center;
-  background-color: #FFF;
+  background-color: rgba(126, 126, 126, 0.151);
   margin-bottom: 30px;
 }
 
@@ -24,12 +26,14 @@
   font-size: 36px;
   line-height: 34px;
   letter-spacing: -0.015em;
-  color: var(--primary-color);
+  color: black;
   margin-right: 100px;
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .steps-items {
   list-style-type: none;
+  color: black;
 }
 
 .steps-items li {
@@ -37,7 +41,7 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.015em;
-  color: var(--secondary-color);
+  color: black;
 }
 
 .steps-items .steps-number {
@@ -46,7 +50,7 @@
   font-weight: bold;
   line-height: 33px;
   letter-spacing: -0.015em;
-  color: var(--primary-color);
+  color: black;
   margin-right: 10px;
 }
 
@@ -56,9 +60,9 @@
 }
 
 .orders-list-items {
-  width: 70%;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 235px);
+  grid-template-columns: repeat(auto-fill, 245px);
   grid-gap: 20px 15px;
   justify-content: space-between;
 }
@@ -87,8 +91,10 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.015em;
-  color: var(--primary-color);
+  color: black;
   text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20pt;
 }
 
 .order-card-container.selected .order-card-title {
@@ -107,7 +113,7 @@
   font-size: 24px;
   line-height: 33px;
   letter-spacing: -0.015em;
-  color: var(--primary-color);
+  color: black;
   text-align: left;
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .home-container {
     padding-top: 100px;
     height: calc(100vh - 260px);
@@ -5,6 +7,7 @@
   
   .home-container h1 {
     margin: 0;
+    
   }
   
   .home-content {
@@ -14,11 +17,12 @@
   
   .home-title {
     font-weight: bold;
-    font-size: 55px;
+    font-size: 70px;
     line-height: 58px;
     letter-spacing: -0.015em;
     color: var(--dark-color);
     margin-bottom: 40px !important;
+    font-family: 'Shadows Into Light', cursive;
   }
   
   .home-subtitle {
@@ -28,6 +32,7 @@
     letter-spacing: -0.015em;
     color: var(--secondary-color);
     margin-bottom: 30px;
+    
   }
   
   .home-btn-order {

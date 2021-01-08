@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .main-navbar{
 height: 70px;
-background: #DA5C5C;
+background: black;
 padding-left: 45px;
 display: flex;
 align-items: center;
@@ -11,6 +13,9 @@ font-weight: bold;
 font-size: 24px;
 line-height: 33px;
 letter-spacing: -0.015em;
-color: #FFFFFF;
+color: white;
 margin-left: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 50pt;
+font-family: 'Shadows Into Light', cursive;
 }
