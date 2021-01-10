@@ -5,7 +5,10 @@ import { fetchLocalMapBox } from './api';
 import { OrderLocationData } from './types';
 
 
-
+const initialPosition ={
+  lat: -22.906847,
+  lng: -43.172897
+}
 
 type Place={
     label?: string;
@@ -14,11 +17,6 @@ type Place={
         lat: number;
         lng: number;
     };
-}
-
-const initialPosition ={
-  lat: -22.906847,
-  lng: -43.172897
 }
 
 type Props={
