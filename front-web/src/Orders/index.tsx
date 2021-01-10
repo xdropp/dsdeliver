@@ -8,7 +8,6 @@ import StepsHeader from './StepsHeader';
 import './styles.css';
 import { OrderLocationData, Product } from './types';
 import OrderSummary from './OrderSummary';
-import Locat from './OwnLocation';
 import { checkIsSelected } from './helpers';
 
 
