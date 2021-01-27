@@ -5,6 +5,3 @@ Utilizamos o ReactJS, realizamos a implantação do backend no Heroku e hospedam
 
 Entre e confira:
 https://megaburgergabrielfroes.netlify.app
-
-
-⚡☢ APP COM REACT NATIVO EM CONSTRUÇÃO ☢⚡
